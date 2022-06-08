@@ -1,13 +1,12 @@
 {
   "name": "oven-configurator",
   "description": "UI for Taikisha Oven Configurator",
-  "version": "0.1.20",
-  "main": "src/main.ts",
+  "version": "0.0.100",
   "author": "John E",
   "license": "Proprietary",
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build",
+    "build": "vite build",
     "serve": "vite preview",
     "https-preview": "serve dist",
     "lint": "eslint --ext .ts,.vue --ignore-path .gitignore --fix src",
@@ -18,7 +17,6 @@
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.2",
-    "@types/node": "^17.0.39",
     "@vueuse/components": "^8.6.0",
     "@vueuse/core": "^8.6.0",
     "@vueuse/head": "^0.7.6",
@@ -38,6 +36,7 @@
     "@iconify/json": "^2.1.56",
     "@intlify/vite-plugin-vue-i18n": "^3.4.0",
     "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.39",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "@vitejs/plugin-vue": "^2.3.3",
@@ -58,7 +57,6 @@
     "vite-plugin-pages": "^0.23.0",
     "vite-plugin-pwa": "^0.12.0",
     "vite-plugin-vue-layouts": "^0.6.0",
-    "vite-ssg": "^0.20.0",
     "vue-tsc": "^0.36.1",
     "workbox-window": "^6.5.3"
   }

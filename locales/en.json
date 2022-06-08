@@ -10,8 +10,7 @@
     },
     "projects": {
       "title": "Manage Projects",
-      "search": "Search",
-      "select-search-criteria": "Select search criteria",
+
       "project-code": "Project Code",
       "project-name": "Project Name",
       "client": "Client",
@@ -34,7 +33,7 @@
       "scroll-down-for-mods": "Scroll down for modules list",
       "entry-exit-mods": "Entry & Exit Modules",
       "straight-zone-mods": "Straight Zone Modules",
-      "u-turn-mods": "90&deg; & U-Turn Modules",
+      "u-turn-mods": "90° & U-Turn Modules",
       "module-list": "Module List",
       "cell": "Cell",
       "component": "Component",
@@ -55,7 +54,15 @@
       "title": "Generate 3D Models"
     },
     "user-manager": {
-      "title": "Manage Users"
+      "title": "Manage Users",
+      "new-user": "New User",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "name": "Name",
+      "user-id": "UserID",
+      "phone": "Phone",
+      "roles": "Roles",
+      "vendor": "Vendor"
     },
     "master-data": {
       "title": "Manage Master Data"
@@ -75,7 +82,10 @@
     "project": "Project",
     "select": "Select",
     "no-records": "No records found",
-    "submit": "Submit"
+    "submit": "Submit",
+    "search": "Search",
+    "select-search-criteria": "Select search criteria",
+    "status": "Status"
   },
   "app": {
     "name": "Oven Configurator",

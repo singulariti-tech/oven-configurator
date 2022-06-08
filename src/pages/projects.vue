@@ -29,11 +29,11 @@
     </nav>
     <div class="m-1 mt-4 mb-4 space-x-2 flex items-center justify-between">
       <div class="space-x-2">
-        <span class="text-sm">{{ $t("pages.projects.search") }}:</span>
+        <span class="text-sm">{{ $t("common.search") }}:</span>
         <input class="form-field" type="text" name="searchContent" />
         <select class="form-field">
           <option value="">
-            {{ $t("pages.projects.select-search-criteria") }}
+            {{ $t("common.select-search-criteria") }}
           </option>
           <option>{{ $t("pages.projects.project-code") }}</option>
           <option>{{ $t("pages.projects.project-name") }}</option>

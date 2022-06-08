@@ -1,16 +1,16 @@
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
-import { ViteSSG } from "vite-ssg";
 import App from "@/App.vue";
-import { setupLayouts } from "virtual:generated-layouts";
-import generatedRoutes from "virtual:generated-pages";
+import { createApp } from "vue";
+import * as modules from "@/modules/no-ssg";
+
 import "@/styles/index.css";
+
+import { createHead } from '@vueuse/head';
 
 Draggable.zIndex = 100;
 gsap.registerPlugin(Draggable);
 
-const routes = setupLayouts(generatedRoutes);
+const head = createHead();
 
-export const createApp = ViteSSG(App, { routes }, async ctx => {
-  Object.values(import.meta.globEager("./modules/*.ts")).map(i => i.install?.(ctx));
-});
+const app = createApp(App).use(modules.router).use(modules.pinia).use(modules.i18n).use(head).mount("#app");

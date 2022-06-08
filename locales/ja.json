@@ -10,8 +10,7 @@
     },
     "projects": {
       "title": "プロジェクト",
-      "search": "探す",
-      "select-search-criteria": "検索条件を選択",
+
       "project-code": "プロジェクトコード",
       "project-name": "プロジェクト名",
       "client": "クライアント",
@@ -34,7 +33,7 @@
       "scroll-down-for-mods": "モジュールリストを下にスクロールします",
       "entry-exit-mods": "入口および出口モジュール",
       "straight-zone-mods": "ストレートゾーンモジュール",
-      "u-turn-mods": "90&deg; & Uターンモジュール",
+      "u-turn-mods": "90° & Uターンモジュール",
       "module-list": "モジュールリスト",
       "cell": "細胞",
       "component": "成分",
@@ -55,7 +54,15 @@
       "title": "3Dモデルを生成する"
     },
     "user-manager": {
-      "title": "ユーザーの管理"
+      "title": "ユーザーの管理",
+      "new-user": "新しいユーザー",
+      "first-name": "ファーストネーム",
+      "last-name": "苗字",
+      "name": "名前",
+      "user-id": "ユーザーID",
+      "phone": "電話",
+      "roles": "役割",
+      "vendor": "ベンダー"
     },
     "master-data": {
       "title": "マスターデータの管理"
@@ -75,7 +82,10 @@
     "project": "計画",
     "select": "選択する",
     "no-records": "レコードが見つかりません",
-    "submit": "参加する"
+    "submit": "参加する",
+    "search": "探す",
+    "select-search-criteria": "検索条件を選択",
+    "status": "状態"
   },
   "app": {
     "name": "オーブンコンフィギュレーター",
