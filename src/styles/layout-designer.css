@@ -1,0 +1,111 @@
+.el,
+.el-shadow {
+  touch-action: none;
+  user-select: none;
+  @apply flex absolute left-0 top-0 justify-center items-center;
+}
+
+.title {
+  @apply mb-[5px] px-[3px] py-[5px] border border-black bg-gray-200 text-xs font-bold;
+}
+
+.tile {
+  @apply flex justify-center items-center relative m-[2px];
+}
+
+.tile-1x1 {
+  @apply flex justify-center items-center relative m-[2px] w-[45px] h-[45px];
+}
+
+.tile-1x2 {
+  @apply flex justify-center items-center relative m-[2px] w-[45px] h-[90px];
+}
+
+.tile-2x1 {
+  @apply flex justify-center items-center relative m-[2px] w-[90px] h-[45px];
+}
+
+.tile-2x2 {
+  @apply flex justify-center items-center relative m-[2px] w-[90px] h-[90px];
+}
+
+.el {
+  touch-action: none;
+  user-select: none;
+  @apply flex justify-center items-center absolute m-[2px] w-[45px] h-[45px] left-0 top-0;
+}
+
+.el-shadow {
+  touch-action: none;
+  user-select: none;
+  color: blue;
+  @apply flex justify-center items-center absolute m-[2px] w-[45px] h-[45px] left-0 top-0 opacity-0;
+}
+
+.s1x1 {
+  @apply w-[45px] h-[45px];
+}
+
+.s1x2 {
+  @apply w-[45px] h-[90px];
+}
+
+.s2x1 {
+  @apply w-[90px] h-[45px];
+}
+
+.s2x2 {
+  @apply w-[90px] h-[90px];
+}
+
+.cell {
+  @apply flex w-[45px] h-[45px] border-[1px] border-black border-dotted border-collapse items-center justify-center flex-shrink-0;
+}
+
+.header {
+  @apply text-xs font-bold items-center justify-center bg-gray-100 flex-shrink-0;
+}
+
+.rotate-90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
+
+.rotate-270 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg); /* IE 9 */
+  transform: rotate(270deg);
+}
+
+.rotate-360 {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg); /* IE 9 */
+  transform: rotate(360deg);
+}
+
+.selected {
+  border: solid 3px orangered;
+}
+
+.valid {
+  border: solid 2px greenyellow;
+}
+
+.invalid {
+  border: solid 2px red;
+}

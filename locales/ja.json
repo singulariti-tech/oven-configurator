@@ -1,0 +1,89 @@
+{
+  "pages": {
+    "home": "家",
+    "login": {
+      "email": "電子メールアドレス",
+      "password": "パスワード",
+      "remember-me": "私を覚えてますか",
+      "forgot-password": "パスワードをお忘れですか",
+      "sign-in": "ログイン"
+    },
+    "projects": {
+      "title": "プロジェクト",
+      "search": "探す",
+      "select-search-criteria": "検索条件を選択",
+      "project-code": "プロジェクトコード",
+      "project-name": "プロジェクト名",
+      "client": "クライアント",
+      "status": "状態",
+      "new-project": "新しい計画"
+    },
+    "new-project": {
+      "title": "新たなプロジェクト",
+      "client-name": "クライアント名",
+      "facility-code": "施設コード",
+      "facility-name": "設備名称",
+      "plant-name": "植物名",
+      "project-name": "プロジェクト名",
+      "project-code": "プロジェクトコード",
+      "tm-number": "TM番号",
+      "drawings": "図面",
+      "component-library-type": "コンポーネントライブラリタイプ",
+      "library": "としょうかん",
+      "layout": "レイアウト",
+      "scroll-down-for-mods": "モジュールリストを下にスクロールします",
+      "entry-exit-mods": "入口および出口モジュール",
+      "straight-zone-mods": "ストレートゾーンモジュール",
+      "u-turn-mods": "90&deg; & Uターンモジュール",
+      "module-list": "モジュールリスト",
+      "cell": "細胞",
+      "component": "成分",
+      "module-type": "モジュールタイプ",
+      "internal-duct-type": "内部ダクトタイプ",
+      "roof": "屋根",
+      "side-panel": "サイドパネル",
+      "floor-panel": "床パネル",
+      "internal-duct": "内部ダクト",
+      "insulation-spec": "断熱仕様",
+      "new-oven-design": "新しいオーブンのデザイン",
+      "information": "情報",
+      "sizing": "サイジング",
+      "step4": "Step-4",
+      "summary": "概要"
+    },
+    "generate-models": {
+      "title": "3Dモデルを生成する"
+    },
+    "user-manager": {
+      "title": "ユーザーの管理"
+    },
+    "master-data": {
+      "title": "マスターデータの管理"
+    },
+    "not-found": "ページが見つかりません",
+    "company-name": "大気社エンジニアリング",
+    "configurator": {
+      "menu": "Oven Configurator",
+      "desc": "Test page"
+    }
+  },
+  "common": {
+    "client": "クライアント",
+    "actions": "行動",
+    "previous": "前",
+    "next": "次",
+    "project": "計画",
+    "select": "選択する",
+    "no-records": "レコードが見つかりません",
+    "submit": "参加する"
+  },
+  "app": {
+    "name": "オーブンコンフィギュレーター",
+    "offline": "アプリはオフラインで動作する準備ができています",
+    "new-content": "新しいコンテンツが利用可能です。リロードボタンをクリックして更新してください。"
+  },
+  "button": {
+    "reload": "リロード",
+    "close": "選ぶ"
+  }
+}

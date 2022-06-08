@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+  } */
+
+html {
+  overflow-y: scroll;
+}
+
+@layer base {
+  html {
+    font-family: Helvetica, system-ui, sans-serif;
+  }
+}
+
+.router-link-active {
+  @apply font-bold text-taikisha;
+}
+
+.router-link-exact-active {
+  text-decoration: none;
+  @apply font-bold;
+}
+
+/* START Standard components */
+.section {
+  @apply border border-gray-500 overflow-hidden sm:rounded-md p-4 m-4 ml-1;
+}
+.form-element {
+  @apply flex flex-wrap items-center justify-start m-2;
+}
+.form-label {
+  @apply text-sm font-medium text-gray-700 w-[195px];
+}
+
+.form-field {
+  @apply focus:ring-taikisha focus:border-taikisha shadow-sm sm:text-sm border-gray-300 rounded-md;
+}
+
+.th {
+  @apply text-sm font-semibold text-gray-500 px-4 py-4 text-left;
+}
+
+.td {
+  @apply px-4 py-2 text-sm font-normal text-gray-900 text-left;
+}
+
+.component-title {
+  @apply my-[5px] px-[3px] py-[5px] sm:rounded-md border border-gray-500 bg-gray-300 min-w-full flex justify-center items-center text-lg font-bold;
+}
+
+.system-selected {
+  @apply text-taikisha font-bold;
+}
+
+.button {
+  @apply flex space-x-2 justify-center items-center px-6 py-2 mr-2 text-gray-800 text-sm border bg-gray-100 rounded-md outline-none ring-offset-2 ring-blue-600 focus:ring-2;
+}
+/* END Standard Components */

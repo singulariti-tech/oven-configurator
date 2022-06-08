@@ -1,0 +1,89 @@
+{
+  "pages": {
+    "home": "Home",
+    "login": {
+      "email": "Email Address",
+      "password": "Password",
+      "remember-me": "Remember me",
+      "forgot-password": "Forgot Password",
+      "sign-in": "Sign In"
+    },
+    "projects": {
+      "title": "Manage Projects",
+      "search": "Search",
+      "select-search-criteria": "Select search criteria",
+      "project-code": "Project Code",
+      "project-name": "Project Name",
+      "client": "Client",
+      "status": "Status",
+      "new-project": "New Project"
+    },
+    "new-project": {
+      "title": "New Project",
+      "client-name": "Client Name",
+      "facility-code": "Facility Code",
+      "facility-name": "Facility Name",
+      "plant-name": "Plant Name",
+      "project-name": "Project Name",
+      "project-code": "Project Code",
+      "tm-number": "TM Number",
+      "drawings": "Drawings",
+      "component-library-type": "Component Library Type",
+      "library": "Library",
+      "layout": "Shape",
+      "scroll-down-for-mods": "Scroll down for modules list",
+      "entry-exit-mods": "Entry & Exit Modules",
+      "straight-zone-mods": "Straight Zone Modules",
+      "u-turn-mods": "90&deg; & U-Turn Modules",
+      "module-list": "Module List",
+      "cell": "Cell",
+      "component": "Component",
+      "module-type": "Module Type",
+      "internal-duct-type": "Internal Duct Type",
+      "roof": "Roof",
+      "side-panel": "Side Panel",
+      "floor-panel": "Floor Panel",
+      "internal-duct": "Internal Duct",
+      "insulation-spec": "Insulation Specification",
+      "new-oven-design": "New Oven Design",
+      "information": "Project Details",
+      "sizing": "Sizing",
+      "step4": "Step-4",
+      "summary": "Summary"
+    },
+    "generate-models": {
+      "title": "Generate 3D Models"
+    },
+    "user-manager": {
+      "title": "Manage Users"
+    },
+    "master-data": {
+      "title": "Manage Master Data"
+    },
+    "not-found": "Page not found",
+    "company-name": "Taikisha Engineering",
+    "configurator": {
+      "menu": "Oven Configurator",
+      "desc": "Test page"
+    }
+  },
+  "common": {
+    "client": "Client",
+    "actions": "Actions",
+    "previous": "Prev",
+    "next": "Next",
+    "project": "Project",
+    "select": "Select",
+    "no-records": "No records found",
+    "submit": "Submit"
+  },
+  "app": {
+    "name": "Oven Configurator",
+    "offline": "App ready to work offline",
+    "new-content": "New content available, click on reload button to update."
+  },
+  "button": {
+    "reload": "Reload",
+    "close": "Close"
+  }
+}
